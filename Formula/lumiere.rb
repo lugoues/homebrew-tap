@@ -3,9 +3,9 @@
 class Lumiere < Formula
   desc "Daemon and web UI for controlling Neewer BLE lights"
   homepage "https://github.com/lugoues/lumiere"
-  url "https://github.com/lugoues/lumiere/releases/download/v0.1.1/lumiere-0.1.1-aarch64-apple-darwin.tar.gz"
-  sha256 "68248e1b5c2987de0b09f257857fa6b48f8cf14d9dff56d86b1292c1edbbd116"
-  version "0.1.1"
+  url "https://github.com/lugoues/lumiere/releases/download/v0.1.2/lumiere-0.1.2-aarch64-apple-darwin.tar.gz"
+  sha256 "d0a357a0dfa2e3f507cf300494cfbe417dad868b1f258d600c584f19baa6a8f0"
+  version "0.1.2"
 
   def install
     bin.install "lumiere-daemon"
